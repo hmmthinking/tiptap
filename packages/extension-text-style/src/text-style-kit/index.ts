@@ -47,9 +47,9 @@ export interface TextStyleKitOptions {
 }
 
 /**
- * The table kit is a collection of table editor extensions.
+ * The TextStyleKit is a collection of the most common Tiptap text style extensions. 
  *
- * It’s a good starting point for building your own table in Tiptap.
+ * If you quickly want to setup styles for your text in Tiptap, this extension is for you.
  */
 export const TextStyleKit = Extension.create<TextStyleKitOptions>({
   name: 'textStyleKit',
